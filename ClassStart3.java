@@ -14,8 +14,8 @@ public class ClassStart3 {
         student2.age = 16;
         student2.grade = 80;
 
-        System.out.println(student1); // 참조값 메모리 주소
-        System.out.println(student2); // 참조값 메모리 주소
+        System.out.println("student1의 참조값: " + student1); // 참조값 메모리 주소
+        System.out.println("student2의 참조값: " + student2); // 참조값 메모리 주소
 
         System.out.println("이름:" + student1.name + " 나이:" + student1.age + " 성적:" + student1.grade);
         System.out.println("이름:" + student2.name + " 나이:" + student2.age + " 성적:" + student2.grade);
